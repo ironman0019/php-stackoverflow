@@ -1,0 +1,79 @@
+body {
+  font-family: "Vazir", sans-serif;
+  background-color: #f5f7fa;
+}
+
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link,
+.navbar .navbar-toggler-icon {
+  color: #ffffff !important;
+}
+
+.navbar .nav-link:hover {
+  color: #dcdcdc !important;
+}
+
+.navbar .auth-buttons .btn {
+  margin-left: 5px;
+}
+
+.ask-button {
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+}
+
+.ask-button:hover {
+  background-color: #e0a800;
+  color: #212529;
+}
+
+.question-tags a,
+.badge-tag {
+  margin-right: 5px;
+  color: rgb(0, 90, 175);
+  background-color: rgba(224, 248, 255, 0.705);
+  border-radius: 3px;
+  padding: 5px 6px;
+  font-size: 12px;
+  text-decoration: none;
+  transition: all 0.3s;
+  margin: 5px 2px;
+  display: inline-block;
+}
+
+.list-group-item > a {
+  font-size: 13px;
+}
+
+.question-tags a:hover,
+.badge-tag:hover {
+  background-color: #006c85;
+  color: #ffffff;
+}
+
+.sidebar-section {
+  background-color: #ffffff;
+  border: 1px solid #d6d9dc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-section h5 {
+  margin-bottom: 15px;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.list-group-item a:hover {
+  color: #007bff;
+}
